@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>עו"ד יאיר נחמיאס | רשלנות רפואית ונזקי גוף</title>
-  <meta name="description" content="עו&quot;ד יאיר נחמיאס – מומחה לרשלנות רפואית ונזקי גוף עם 15 שנות ניסיון. ייצוג אישי, מקצועי ואפקטיבי." />
+  <title>עו"ד יאיר נחמיאס | רשלנות רפואית ונזקי גוף – תל אביב</title>
+  <meta name="description" content="עו&quot;ד יאיר נחמיאס – עורך דין לרשלנות רפואית ונזקי גוף עם 15 שנות ניסיון. ייעוץ ראשוני ללא עלות. ריב&quot;ל 4, תל אביב." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
@@ -12,26 +12,29 @@
 </head>
 <body>
 
+  <!-- SKIP LINK (נגישות - ניווט מהיר למקלדת) -->
+  <a href="#main-content" class="skip-link">דלג לתוכן הראשי</a>
+
   <!-- HEADER -->
-  <header id="header">
+  <header id="header" role="banner">
     <div class="container header-inner">
-      <div class="logo">
+      <div class="logo" aria-label="יאיר נחמיאס עורך דין">
         <span class="logo-name">יאיר נחמיאס</span>
         <span class="logo-title">עורך דין</span>
       </div>
-      <nav>
+      <nav aria-label="ניווט ראשי">
         <ul class="nav-links">
           <li><a href="#about">אודות</a></li>
           <li><a href="#areas">תחומי עיסוק</a></li>
           <li><a href="#why">למה אני?</a></li>
           <li><a href="#contact">צור קשר</a></li>
         </ul>
-        <button class="hamburger" id="hamburger" aria-label="תפריט">
+        <button class="hamburger" id="hamburger" aria-label="פתח תפריט ניווט" aria-expanded="false" aria-controls="mobileMenu">
           <span></span><span></span><span></span>
         </button>
       </nav>
     </div>
-    <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu" id="mobileMenu" role="navigation" aria-label="תפריט נייד">
       <ul>
         <li><a href="#about" class="mobile-link">אודות</a></li>
         <li><a href="#areas" class="mobile-link">תחומי עיסוק</a></li>
@@ -41,260 +44,276 @@
     </div>
   </header>
 
-  <!-- HERO -->
-  <section id="hero">
-    <div class="hero-overlay"></div>
-    <div class="container hero-content">
-      <p class="hero-tag">רשלנות רפואית | נזקי גוף</p>
-      <h1>כשמגיעים לנקודת שבר —<br />מגיעים לייצוג הנכון</h1>
-      <p class="hero-sub">15 שנות ניסיון בליווי נפגעים ומשפחותיהם מול מוסדות רפואיים וחברות ביטוח.</p>
-      <div class="hero-cta">
-        <a href="#contact" class="btn btn-gold">לייעוץ ראשוני ללא עלות</a>
-        <a href="#about" class="btn btn-outline">קרא עוד</a>
-      </div>
-    </div>
-    <div class="hero-scroll">
-      <span></span>
-    </div>
-  </section>
+  <main id="main-content">
 
-  <!-- STATS -->
-  <section id="stats">
-    <div class="container stats-grid">
-      <div class="stat-item">
-        <span class="stat-num">15+</span>
-        <span class="stat-label">שנות ניסיון</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-num">1,000+</span>
-        <span class="stat-label">תיקים שטופלו</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-num">₪מיליונים</span>
-        <span class="stat-label">פיצויים שהושגו</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-num">100%</span>
-        <span class="stat-label">מחויבות לכל לקוח</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- ABOUT -->
-  <section id="about">
-    <div class="container about-grid">
-      <div class="about-image">
-        <img src="yair.jpg" alt='עו"ד יאיר נחמיאס' class="about-photo" />
-        <div class="about-badge">15 שנות ניסיון</div>
-      </div>
-      <div class="about-text">
-        <p class="section-tag">אודות</p>
-        <h2>עו"ד יאיר נחמיאס</h2>
-        <div class="gold-line"></div>
-        <p>עו"ד יאיר נחמיאס הינו עורך דין מוביל בתחום הרשלנות הרפואית ונזקי הגוף, בעל ניסיון של למעלה מ-15 שנה בייצוג נפגעים מול מוסדות רפואיים, קופות חולים וחברות ביטוח.</p>
-        <p>במשך שנים ארוכות ניהל עו"ד נחמיאס תיקים מורכבים ורגישים, תוך הקפדה על ליווי אישי, מקצועי ואנושי של כל לקוח ולקוח. הגישה שלו: כל תיק הוא עולם ומלואו.</p>
-        <p>המשרד ממוקם בתל אביב ומשרת לקוחות מרחבי הארץ.</p>
-        <div class="about-highlights">
-          <div class="highlight-item">
-            <span class="highlight-icon">✦</span>
-            <span>בוגר משפטים</span>
-          </div>
-          <div class="highlight-item">
-            <span class="highlight-icon">✦</span>
-            <span>חבר לשכת עורכי הדין</span>
-          </div>
-          <div class="highlight-item">
-            <span class="highlight-icon">✦</span>
-            <span>התמחות בדיני נזיקין ורשלנות רפואית</span>
-          </div>
-        </div>
-        <a href="#contact" class="btn btn-gold">לייעוץ ראשוני</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- AREAS -->
-  <section id="areas">
-    <div class="container">
-      <div class="section-header">
-        <p class="section-tag">מה אני עושה</p>
-        <h2>תחומי עיסוק</h2>
-        <div class="gold-line centered"></div>
-      </div>
-      <div class="areas-grid">
-
-        <div class="area-card">
-          <div class="area-icon">⚕</div>
-          <h3>רשלנות רפואית</h3>
-          <p>ייצוג נפגעים מרשלנות של רופאים, בתי חולים, קופות חולים ומוסדות רפואיים. אבחון מוטעה, ניתוחים כושלים, טיפול לקוי ועוד.</p>
-          <ul>
-            <li>שגיאות אבחון</li>
-            <li>סיבוכי ניתוח</li>
-            <li>טיפול תרופתי לקוי</li>
-            <li>רשלנות מיילדותית</li>
-          </ul>
-        </div>
-
-        <div class="area-card featured">
-          <div class="area-icon">⚖</div>
-          <h3>נזקי גוף</h3>
-          <p>תביעות פיצויים בגין נזקי גוף שנגרמו כתוצאה מרשלנות, תאונות ואירועים שונים. השגת הפיצוי המקסימלי לו מגיע הנפגע.</p>
-          <ul>
-            <li>תאונות דרכים</li>
-            <li>תאונות עבודה</li>
-            <li>נפילות ותאונות</li>
-            <li>נזק ראייתי ורגשי</li>
-          </ul>
-        </div>
-
-        <div class="area-card">
-          <div class="area-icon">🏛</div>
-          <h3>תביעות ביטוח</h3>
-          <p>ייצוג מול חברות ביטוח בתביעות שנדחו או בתשלומים חלקיים. מאבק מקצועי לקבלת הפיצוי המלא המגיע על פי הפוליסה.</p>
-          <ul>
-            <li>ביטוח תאונות אישיות</li>
-            <li>ביטוח נכות</li>
-            <li>ביטוח חיים</li>
-            <li>ביטוח סיעודי</li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- WHY -->
-  <section id="why">
-    <div class="container">
-      <div class="section-header">
-        <p class="section-tag">היתרון שלי</p>
-        <h2>למה לבחור בעו"ד יאיר נחמיאס?</h2>
-        <div class="gold-line centered"></div>
-      </div>
-      <div class="why-grid">
-        <div class="why-item">
-          <div class="why-num">01</div>
-          <h4>ניסיון מוכח</h4>
-          <p>15 שנות עיסוק ממוקד ברשלנות רפואית ונזקי גוף — לא עורך דין כללי, אלא מומחה בתחומו.</p>
-        </div>
-        <div class="why-item">
-          <div class="why-num">02</div>
-          <h4>ליווי אישי</h4>
-          <p>כל לקוח מקבל גישה ישירה לעורך הדין עצמו, לאורך כל הדרך — מהייעוץ הראשון ועד לסיום התיק.</p>
-        </div>
-        <div class="why-item">
-          <div class="why-num">03</div>
-          <h4>ייעוץ ראשוני חינם</h4>
-          <p>פגישה ראשונה ללא עלות ובלי התחייבות. תגלה אם יש לך תביעה — לפני שתחליט.</p>
-        </div>
-        <div class="why-item">
-          <div class="why-num">04</div>
-          <h4>שכר טרחה בהצלחה</h4>
-          <p>לא שילמת — לא שילמת. שכר הטרחה מותנה בהצלחת התיק בלבד.</p>
-        </div>
-        <div class="why-item">
-          <div class="why-num">05</div>
-          <h4>רשת מומחים רפואיים</h4>
-          <p>גישה לחוות דעת ממומחים רפואיים מובילים, לחיזוק התיק שלך.</p>
-        </div>
-        <div class="why-item">
-          <div class="why-num">06</div>
-          <h4>זמינות ומענה מהיר</h4>
-          <p>אנחנו מאמינים שכל שאלה מגיעה לתשובה — ובזמן סביר. הלקוח לא ממתין בחוסר ידיעה.</p>
+    <!-- HERO -->
+    <section id="hero" aria-label="כותרת ראשית">
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <p class="hero-tag" aria-hidden="true">רשלנות רפואית | נזקי גוף</p>
+        <h1>נפגעת מרשלנות רפואית?<br />מגיע לך ייצוג מקצועי.</h1>
+        <p class="hero-sub">15 שנות ניסיון בליווי נפגעים ומשפחותיהם מול מוסדות רפואיים וחברות ביטוח.</p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-cta">תיאום פגישת ייעוץ ובחינת המקרה</a>
+          <a href="#about" class="btn btn-outline">קרא עוד על המשרד</a>
         </div>
       </div>
-    </div>
-  </section>
+      <div class="hero-scroll" aria-hidden="true">
+        <span></span>
+      </div>
+    </section>
 
-  <!-- CONTACT -->
-  <section id="contact">
-    <div class="container contact-grid">
-      <div class="contact-info">
-        <p class="section-tag">דברו איתי</p>
-        <h2>צור קשר</h2>
-        <div class="gold-line"></div>
-        <p class="contact-sub">פגישת ייעוץ ראשונה ללא עלות ובלי התחייבות. מלא את הפרטים ואחזור אליך בהקדם.</p>
+    <!-- STATS -->
+    <section id="stats" aria-label="נתוני המשרד">
+      <div class="container stats-grid">
+        <div class="stat-item">
+          <span class="stat-num" aria-label="15 שנות ניסיון ויותר">15+</span>
+          <span class="stat-label">שנות ניסיון</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" aria-label="מעל אלף תיקים שטופלו">1,000+</span>
+          <span class="stat-label">תיקים שטופלו</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" aria-label="פיצויים בסכומי מיליונים">₪מיליונים</span>
+          <span class="stat-label">פיצויים שהושגו</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" aria-label="ייעוץ ראשוני ללא עלות">ללא עלות</span>
+          <span class="stat-label">פגישת הייעוץ הראשונה</span>
+        </div>
+      </div>
+    </section>
 
-        <div class="contact-details">
-          <div class="contact-item">
-            <span class="contact-icon">📍</span>
-            <div>
-              <strong>כתובת</strong>
-              <span>ריב"ל 4, תל אביב</span>
+    <!-- ABOUT -->
+    <section id="about" aria-labelledby="about-heading">
+      <div class="container about-grid">
+        <div class="about-image">
+          <img
+            src="yair.jpg"
+            alt="עו&quot;ד יאיר נחמיאס יושב בחדר עבודה מקצועי עם ספרי משפט ברקע"
+            class="about-photo"
+            width="420"
+            height="560"
+          />
+          <div class="about-badge" aria-label="15 שנות ניסיון בתחום">15 שנות ניסיון</div>
+        </div>
+        <div class="about-text">
+          <p class="section-tag">אודות</p>
+          <h2 id="about-heading">עו"ד יאיר נחמיאס</h2>
+          <div class="gold-line" aria-hidden="true"></div>
+          <p>עו"ד יאיר נחמיאס עוסק בתחום הרשלנות הרפואית ונזקי הגוף, ומונה למעלה מ-15 שנות ניסיון בייצוג נפגעים מול מוסדות רפואיים, קופות חולים וחברות ביטוח.</p>
+          <p>לאורך שנות עבודתו ניהל עו"ד נחמיאס תיקים מורכבים ורגישים, תוך ליווי אישי ואנושי של כל לקוח לאורך כל שלבי ההליך המשפטי.</p>
+          <p>המשרד ממוקם בתל אביב ומשרת לקוחות מרחבי הארץ.</p>
+          <div class="about-highlights" role="list">
+            <div class="highlight-item" role="listitem">
+              <span class="highlight-icon" aria-hidden="true">✦</span>
+              <span>בוגר משפטים</span>
+            </div>
+            <div class="highlight-item" role="listitem">
+              <span class="highlight-icon" aria-hidden="true">✦</span>
+              <span>חבר לשכת עורכי הדין בישראל</span>
+            </div>
+            <div class="highlight-item" role="listitem">
+              <span class="highlight-icon" aria-hidden="true">✦</span>
+              <span>עיסוק ממוקד בדיני נזיקין ורשלנות רפואית</span>
             </div>
           </div>
-          <div class="contact-item">
-            <span class="contact-icon">📞</span>
-            <div>
-              <strong>טלפון</strong>
-              <a href="tel:035525355">03-5525355</a>
-            </div>
-          </div>
-          <div class="contact-item">
-            <span class="contact-icon">✉</span>
-            <div>
-              <strong>אימייל</strong>
-              <a href="mailto:yairmedlaw@gmail.com">yairmedlaw@gmail.com</a>
-            </div>
-          </div>
-          <div class="contact-item">
-            <span class="contact-icon">🕐</span>
-            <div>
-              <strong>שעות פעילות</strong>
-              <span>ראשון–חמישי, 09:00–18:00</span>
-            </div>
-          </div>
+          <a href="#contact" class="btn btn-cta">תיאום פגישת ייעוץ</a>
         </div>
       </div>
+    </section>
 
-      <div class="contact-form-wrap">
-        <form id="contactForm" class="contact-form">
-          <div class="form-group">
-            <label for="name">שם מלא *</label>
-            <input type="text" id="name" name="name" placeholder="שם מלא" required />
-          </div>
-          <div class="form-group">
-            <label for="phone">טלפון *</label>
-            <input type="tel" id="phone" name="phone" placeholder="05X-XXXXXXX" required />
-          </div>
-          <div class="form-group">
-            <label for="email">אימייל</label>
-            <input type="email" id="email" name="email" placeholder="your@email.com" />
-          </div>
-          <div class="form-group">
-            <label for="subject">נושא הפנייה</label>
-            <select id="subject" name="subject">
-              <option value="">בחר נושא...</option>
-              <option value="medical">רשלנות רפואית</option>
-              <option value="injury">נזקי גוף</option>
-              <option value="insurance">תביעת ביטוח</option>
-              <option value="other">אחר</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="message">תיאור קצר של הפנייה</label>
-            <textarea id="message" name="message" rows="4" placeholder="ספר לי בקצרה על המקרה שלך..."></textarea>
-          </div>
-          <button type="submit" class="btn btn-gold full-width">שלח פנייה</button>
-          <p class="form-note">* הפרטים שלך שמורים בסודיות מוחלטת</p>
-        </form>
-        <div id="formSuccess" class="form-success hidden">
-          <span>✓</span>
-          <p>תודה! פנייתך התקבלה. נחזור אליך בהקדם.</p>
+    <!-- AREAS -->
+    <section id="areas" aria-labelledby="areas-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag" aria-hidden="true">תחומי פעילות</p>
+          <h2 id="areas-heading">תחומי עיסוק</h2>
+          <div class="gold-line centered" aria-hidden="true"></div>
+        </div>
+        <div class="areas-grid">
+
+          <article class="area-card">
+            <div class="area-icon" aria-hidden="true">⚕</div>
+            <h3>רשלנות רפואית</h3>
+            <p class="area-hook">קיבלת טיפול רפואי שגרם לנזק? ייתכן שמדובר ברשלנות.</p>
+            <p>ייצוג נפגעים מול רופאים, בתי חולים, קופות חולים ומוסדות רפואיים — בתביעות הנובעות מאבחון מוטעה, ניתוחים וטיפולים לקויים.</p>
+            <ul aria-label="דוגמאות לתביעות רשלנות רפואית">
+              <li>שגיאות אבחון</li>
+              <li>סיבוכי ניתוח</li>
+              <li>טיפול תרופתי לקוי</li>
+              <li>רשלנות מיילדותית</li>
+            </ul>
+            <a href="#contact" class="area-cta">לבחינת המקרה ←</a>
+          </article>
+
+          <article class="area-card featured">
+            <div class="area-icon" aria-hidden="true">⚖</div>
+            <h3>נזקי גוף</h3>
+            <p class="area-hook">נפגעת בתאונה? החוק מעניק לך זכות לפיצוי.</p>
+            <p>הגשת תביעות פיצויים בגין נזקי גוף שנגרמו כתוצאה מרשלנות, תאונות ואירועים שונים — לקבלת הפיצוי המלא המגיע על פי דין.</p>
+            <ul aria-label="דוגמאות לתביעות נזקי גוף">
+              <li>תאונות דרכים</li>
+              <li>תאונות עבודה</li>
+              <li>נפילות ותאונות</li>
+              <li>נזק נפשי ותפקודי</li>
+            </ul>
+            <a href="#contact" class="area-cta">לבחינת המקרה ←</a>
+          </article>
+
+          <article class="area-card">
+            <div class="area-icon" aria-hidden="true">🏛</div>
+            <h3>תביעות ביטוח</h3>
+            <p class="area-hook">חברת הביטוח דחתה את תביעתך? יש לך אפשרויות.</p>
+            <p>ייצוג מול חברות ביטוח בתביעות שנדחו או שולמו באופן חלקי — לקבלת הפיצוי המלא על פי תנאי הפוליסה.</p>
+            <ul aria-label="דוגמאות לתביעות ביטוח">
+              <li>ביטוח תאונות אישיות</li>
+              <li>ביטוח נכות</li>
+              <li>ביטוח חיים</li>
+              <li>ביטוח סיעודי</li>
+            </ul>
+            <a href="#contact" class="area-cta">לבחינת המקרה ←</a>
+          </article>
+
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <!-- WHY -->
+    <section id="why" aria-labelledby="why-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag" aria-hidden="true">מה מאפיין את המשרד</p>
+          <h2 id="why-heading">הגישה המקצועית שלנו</h2>
+          <div class="gold-line centered" aria-hidden="true"></div>
+        </div>
+        <div class="why-grid">
+          <div class="why-item">
+            <div class="why-num" aria-hidden="true">01</div>
+            <h4>ניסיון ממוקד</h4>
+            <p>15 שנות עיסוק בלעדי בתחומי רשלנות רפואית ונזקי גוף, צבירת ידע מעמיק בהליכים מורכבים מסוג זה.</p>
+          </div>
+          <div class="why-item">
+            <div class="why-num" aria-hidden="true">02</div>
+            <h4>ליווי אישי לאורך הדרך</h4>
+            <p>כל לקוח מקבל גישה ישירה לעורך הדין עצמו, מהייעוץ הראשון ועד לסיום ההליך.</p>
+          </div>
+          <div class="why-item">
+            <div class="why-num" aria-hidden="true">03</div>
+            <h4>ייעוץ ראשוני ללא עלות</h4>
+            <p>פגישת בחינת המקרה הראשונה ללא עלות ובלי התחייבות — כדי שתדע מה עומד לרשותך לפני כל החלטה.</p>
+          </div>
+          <div class="why-item">
+            <div class="why-num" aria-hidden="true">04</div>
+            <h4>שכר טרחה בהצלחה בלבד</h4>
+            <p>שכר הטרחה מותנה בתוצאת התיק — לא תשלם אם לא ייגבה פיצוי לזכותך.</p>
+          </div>
+          <div class="why-item">
+            <div class="why-num" aria-hidden="true">05</div>
+            <h4>חוות דעת רפואיות מקצועיות</h4>
+            <p>שיתוף פעולה עם מומחים רפואיים מוסמכים לצורך הכנת חוות דעת התומכת בתיק.</p>
+          </div>
+          <div class="why-item">
+            <div class="why-num" aria-hidden="true">06</div>
+            <h4>מענה זמין ושקיפות מלאה</h4>
+            <p>עדכונים שוטפים לאורך ההליך, ושקיפות מלאה בכל שלב — הלקוח אינו נותר ללא מידע.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <p class="section-tag" aria-hidden="true">פנה אלינו</p>
+          <h2 id="contact-heading">צור קשר</h2>
+          <div class="gold-line" aria-hidden="true"></div>
+          <p class="contact-sub">פגישת בחינת המקרה הראשונה ללא עלות ובלי התחייבות. מלא את הפרטים ונחזור אליך בהקדם.</p>
+
+          <address class="contact-details">
+            <div class="contact-item">
+              <span class="contact-icon" aria-hidden="true">📍</span>
+              <div>
+                <strong>כתובת</strong>
+                <span>ריב"ל 4, תל אביב</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon" aria-hidden="true">📞</span>
+              <div>
+                <strong>טלפון</strong>
+                <a href="tel:035525355" aria-label="התקשר ל-03-5525355">03-5525355</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon" aria-hidden="true">✉</span>
+              <div>
+                <strong>דואר אלקטרוני</strong>
+                <a href="mailto:yairmedlaw@gmail.com">yairmedlaw@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon" aria-hidden="true">🕐</span>
+              <div>
+                <strong>שעות קבלה</strong>
+                <span>ראשון–חמישי, 09:00–18:00</span>
+              </div>
+            </div>
+          </address>
+        </div>
+
+        <div class="contact-form-wrap">
+          <form id="contactForm" class="contact-form" novalidate aria-label="טופס פנייה למשרד">
+            <div class="form-group">
+              <label for="name">שם מלא <span aria-label="שדה חובה">*</span></label>
+              <input type="text" id="name" name="name" placeholder="שם מלא" required aria-required="true" autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="phone">טלפון <span aria-label="שדה חובה">*</span></label>
+              <input type="tel" id="phone" name="phone" placeholder="05X-XXXXXXX" required aria-required="true" autocomplete="tel" />
+            </div>
+            <div class="form-group">
+              <label for="email">דואר אלקטרוני</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label for="subject">נושא הפנייה</label>
+              <select id="subject" name="subject">
+                <option value="">בחר נושא...</option>
+                <option value="medical">רשלנות רפואית</option>
+                <option value="injury">נזקי גוף</option>
+                <option value="insurance">תביעת ביטוח</option>
+                <option value="other">אחר</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">תיאור קצר של הפנייה</label>
+              <textarea id="message" name="message" rows="4" placeholder="ספר בקצרה על המקרה..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-cta full-width">שלח פנייה</button>
+            <p class="form-note">* הפרטים שלך שמורים בסודיות מוחלטת</p>
+          </form>
+          <div id="formSuccess" class="form-success hidden" role="alert" aria-live="polite">
+            <span aria-hidden="true">✓</span>
+            <p>תודה! פנייתך התקבלה. נחזור אליך בהקדם.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
 
   <!-- FOOTER -->
-  <footer id="footer">
+  <footer id="footer" role="contentinfo">
     <div class="container footer-inner">
-      <div class="footer-logo">
+      <div class="footer-logo" aria-label="יאיר נחמיאס עורך דין">
         <span class="logo-name">יאיר נחמיאס</span>
         <span class="logo-title">עורך דין</span>
       </div>
-      <p class="footer-copy">© 2025 עו"ד יאיר נחמיאס. כל הזכויות שמורות.</p>
-      <p class="footer-disclaimer">האמור באתר זה אינו מהווה ייעוץ משפטי ואינו יוצר יחסי עורך דין–לקוח.</p>
+      <p class="footer-copy">© 2026 עו"ד יאיר נחמיאס. כל הזכויות שמורות.</p>
+      <p class="footer-disclaimer">האמור באתר זה הינו מידע כללי בלבד ואינו מהווה ייעוץ משפטי ואינו יוצר יחסי עורך דין–לקוח.</p>
     </div>
   </footer>
 
